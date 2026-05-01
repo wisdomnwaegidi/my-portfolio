@@ -307,7 +307,7 @@ section {
   width: 20rem;
   background-image:
     linear-gradient(to right, rgba(105, 235, 252, 0.3), rgba(5, 221, 250, 0.3)),
-    url("/images/wisdom-nwaegidi.jpg");
+    url("./images/wisdom-nwaegidi.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   transition: all 0.2s ease;
