@@ -30,7 +30,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-image:
     linear-gradient(120deg, rgba(10, 25, 47, 0.93), rgba(10, 25, 47, 0.93)),
-    url("/images/wavybg.jpg");
+    url("./images/wavybg.jpg");
   background-size: contain;
   font-weight: 600;
   line-height: 1.5;
@@ -334,7 +334,7 @@ section {
 .about-img:hover {
   background-image:
     linear-gradient(to right, transparent, transparent),
-    url("/images/wisdom-nwaegidi.jpg");
+    url("./images/wisdom-nwaegidi.jpg");
 }
 
 .about-img:hover::after {
