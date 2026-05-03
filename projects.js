@@ -1,23 +1,23 @@
 const projects = [
   {
-    githubLink: "https://github.com/Pasify/Belsa-app",
-    projectLink: "https://pasify.github.io/Belsa-app/",
-    projectTitle: "Belsa App",
+    githubLink: "https://github.com/Wisdomnwaegidi/Belsa-app",
+    projectLink: "https://wisdomnwaegidi.github.io/Belsa-app/",
+    projectTitle: "BookHouse App",
     projectDescription:
       "A booking website with a sleek and responsive layout. Experience stunning design, intuitive interface, and engaging user experience in browsing and booking hotels, cars, fight and others.",
     projectTools: ["HTML", "CSS/Sass"],
   },
   {
-    githubLink: "https://github.com/Pasify/dicedash",
-    projectLink: "https://pasify.github.io/dicedash/",
-    projectTitle: "Dice-Dash",
+    githubLink: "https://github.com/Wisdomnwaegidi/dicedash",
+    projectLink: "https://wisdomnwaegidi.github.io/dicedash/",
+    projectTitle: "Dashedice",
     projectDescription:
       "A simple dice game where players roll the dice, accumulate points, and aim to reach a target score. But watch out for rolling a '1'! Take turns, make strategic decisions, and be the first to reach the goal",
     projectTools: ["HTML", "CSS/Sass", "JavaScript"],
   },
   {
-    githubLink: "https://github.com/Pasify/Bankist-App",
-    projectLink: "https://pasify.github.io/Bankist-App/",
+    githubLink: "https://github.com/Wisdomnwaegidi/Bankist-App",
+    projectLink: "https://wisdomnwaegidi.github.io/Bankist-App/",
 
     projectTitle: "Union Ledger App",
     projectDescription:
@@ -25,24 +25,24 @@ const projects = [
     projectTools: ["HTML", "CSS", "JavaScript"],
   },
   {
-    githubLink: "https://github.com/Pasify/Far-Away",
-    projectLink: "https://github.com/Pasify/Far-Away",
+    githubLink: "https://github.com/Wisdomnwaegidi/Far-Away",
+    projectLink: "https://github.com/Wisdomnwaegidi/Far-Away",
     projectTitle: "Travelbadge",
     projectDescription:
       "A travel checklist app built using the Vite development environment and React. It allows you to create a list of items you need to pack for your travels.",
     projectTools: ["ReactJS", "Tailwind"],
   },
   {
-    githubLink: "https://github.com/Pasify/Far-Away",
-    projectLink: "https://github.com/Pasify/Far-Away",
+    githubLink: "https://github.com/Wisdomnwaegidi/Far-Away",
+    projectLink: "https://github.com/Wisdomnwaegidi/Far-Away",
     projectTitle: "Loversreel",
     projectDescription:
       "Loversreel is an app for lovers to send beautiful well crafted love messages and gift items. It built using the Vite development environment and React.",
     projectTools: ["ReactJS", "Tailwind"],
   },
   {
-    githubLink: "https://github.com/Pasify/Far-Away",
-    projectLink: "https://github.com/Pasify/Far-Away",
+    githubLink: "https://github.com/Wisdomnwaegidi/Far-Away",
+    projectLink: "https://github.com/Wisdomnwaegidi/Far-Away",
     projectTitle: "Aiacademycards",
     projectDescription:
       "An app for students to learn and grow academically with Artificial Intelligence. It built using the Vite development environment and React.",
