@@ -231,9 +231,9 @@ header {
 }
 
 /* SECTION */
-section {
+/* section {
   padding: 5rem 0;
-}
+} */
 
 /* ABOUT */
 #about {
@@ -347,7 +347,7 @@ section {
   max-width: 70rem;
   height: auto;
   width: 100%;
-  padding: 10rem 5rem;
+  padding: 15rem 5rem 10rem 5rem;
   margin: 0 auto;
 }
 
@@ -1112,7 +1112,8 @@ header.hide {
   }
 
   .exp {
-    padding: 17rem 5rem 10rem 5rem;
+    padding: 15rem 0 0 0;
+    width: 100%;
   }
 
   .exp__inside {

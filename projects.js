@@ -5,7 +5,7 @@ const projects = [
     projectTitle: "BookHouse App",
     projectDescription:
       "A booking website with a sleek and responsive layout. Experience stunning design, intuitive interface, and engaging user experience in browsing and booking hotels, cars, fight and others.",
-    projectTools: ["HTML", "CSS/Sass"],
+    projectTools: ["React", "Tailwind"],
   },
   {
     githubLink: "https://github.com/Wisdomnwaegidi/dicedash",
