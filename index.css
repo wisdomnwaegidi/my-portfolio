@@ -1,7 +1,6 @@
 :root {
   --bg-primary: #050d1a;
   --bg-secondary: #07142b;
-  /* --bg-secondary: #07142b; */
   --accent: #00e5ff;
   --text-primary: #e6f1ff;
   --text-secondary: #9fb3c8;
@@ -61,9 +60,9 @@ a {
   color: var(--accent);
 }
 
-.hero h1 {
+/* .hero h1 {
   font-size: 2rem;
-}
+} */
 
 .project_sub .project__sub__container li {
   cursor: pointer;
@@ -215,6 +214,11 @@ header {
   font-family: monospace, sans-serif;
 }
 
+.btn-find {
+  font-size: 1.5rem;
+  font-family: monospace, sans-serif;
+}
+
 .btn-big:hover {
   background-color: var(--color-4);
   transform: translateY(-0.5rem);
@@ -237,7 +241,7 @@ header {
 
 /* ABOUT */
 #about {
-  padding: 15rem 0 0 0;
+  padding: 10rem 0 0 0;
 }
 
 .about-grid {
@@ -483,6 +487,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
+  margin: 0 auto;
   padding: 2rem;
   height: 30rem;
   background: linear-gradient(
@@ -500,6 +505,7 @@ header {
   place-items: center;
   z-index: 6;
 }
+
 .message .message__content {
   text-align: center;
   font-size: 1.7rem;
@@ -683,10 +689,11 @@ header {
 /* OTHER PROJECTS */
 .heading-mb-md {
   font-size: 2rem;
-  color: var(--text-secondary);
+  color: var(--text-white);
   font-weight: 400;
   margin: 40px 0;
   font-weight: bold;
+  font-family: monospace;
 }
 
 .heading-portfolio {
@@ -791,7 +798,6 @@ header {
 }
 
 /* CONTACT */
-/* CONTACT */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -814,7 +820,8 @@ header {
   text-align: center;
   max-width: 50rem;
   width: 100%;
-  margin: 0 auto;
+  margin: 2rem auto;
+  padding: 10rem 0 0 0;
 }
 
 .contact .contact-actions {
@@ -1027,7 +1034,7 @@ header.hide {
 /* RESPONSIVE */
 @media only screen and (max-width: 37.5em) {
   html {
-    font-size: 80%;
+    font-size: 85%;
   }
 
   .overlay {
@@ -1035,7 +1042,7 @@ header.hide {
   }
 
   .container {
-    padding: 0 4rem;
+    padding: 0 3rem;
   }
 
   .nav {
@@ -1113,7 +1120,6 @@ header.hide {
 
   .exp {
     padding: 15rem 0 0 0;
-    width: 100%;
   }
 
   .exp__inside {
@@ -1272,6 +1278,41 @@ header.hide {
     display: flex;
     gap: 1rem;
   }
+
+  .message-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+
+  .message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  height: 30rem;
+  background: linear-gradient(
+    135deg,
+    rgba(9, 5, 5, 0.2),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(45px);
+  backdrop-filter: blur(45px);
+  box-shadow: 0 10px 30px -15px rgba(16, 44, 87, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  color: #ccd6f6;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  z-index: 6;
+}
 }
 
 @media only screen and (min-width: 193.5em) {
