@@ -197,7 +197,9 @@ a {
     gap: 2rem;
     padding: 2rem 2.5rem;
     transform: translateX(100%);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition:
+      transform 0.3s ease-in-out,
+      box-shadow 0.3s ease-in-out;
     z-index: 90;
   }
 
@@ -327,13 +329,7 @@ a {
     height: 16rem;
     width: 13rem;
     max-width: 80%;
-    background-image:
-      linear-gradient(
-        to right,
-        rgba(255, 60, 60, 0.3),
-        rgba(220, 20, 20, 0.3)
-      ),
-      url("./images/wisdom-nwaegidi.jpg");
+    background-image: url("./images/wisdom-nwaegidi.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -466,7 +462,7 @@ a {
   .exp__inside .job-tabs .button__tab.active-tab {
     border-left: none;
     border-bottom: 2px solid var(--accent);
-    color:var(--accent);
+    color: var(--accent);
   }
 
   .button__tab {
@@ -966,11 +962,11 @@ a {
     font-size: 0.88rem;
   }
 
-  .about-img {
+  /*  .about-img {
     height: 13rem;
     width: 10.5rem;
     max-width: 90%;
-  }
+  } */
 
   .tech-list {
     grid-template-columns: 1fr 1fr;
@@ -1231,11 +1227,7 @@ a {
     height: 25rem;
     width: 20rem;
     background-image:
-      linear-gradient(
-        to right,
-        rgba(255, 60, 60, 0.3),
-        rgba(220, 20, 20, 0.3)
-      ),
+      linear-gradient(to right, rgba(255, 60, 60, 0.3), rgba(220, 20, 20, 0.3)),
       url("./images/wisdom-nwaegidi.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1243,14 +1235,14 @@ a {
     background-position: center;
     justify-self: center;
     border-radius: 5px;
-    outline: 2px solid #e50914;
+    outline: 2px solid var(--accent);
   }
 
   .about-img::after {
     content: "";
     width: 100%;
     height: 100%;
-    outline: 2px solid #e50914;
+    outline: 2px solid var(--accent);
     position: absolute;
     top: 2.5rem;
     left: 2.5rem;
@@ -1320,8 +1312,8 @@ a {
   }
 
   .exp__inside .job-tabs .button__tab:focus {
-    border-left: 2px solid #e50914;
-    color: #e50914;
+    border-left: 2px solid var(--accent);
+    color: var(--accent);
   }
 
   .button {
